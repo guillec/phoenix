@@ -1,7 +1,7 @@
 defmodule Mix.Tasks.Phoenix.RoutesTest do
   use ExUnit.Case
 
-  defmodule Elixir.Phoenix.Config.Router do
+  defmodule Elixir.Phoenix.RouterTest do
     use Phoenix.Router
 
     get "/", Phoenix.Controllers.Pages, :index, as: :page
